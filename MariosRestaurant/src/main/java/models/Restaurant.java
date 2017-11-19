@@ -26,4 +26,20 @@ public class Restaurant {
     public void setName(String newName) {
         this.name = newName;
     }
+
+    public double getIncome() {
+        return this.income;
+    }
+
+    public void setIncome(double newIncome) {
+        this.income = newIncome;
+    }
+
+    public int getCapacity() {
+        return this.maxcapacity;
+    }
+
+    public void setCapacity(int newCapacity) {
+        this.maxcapacity = newCapacity;
+    }
 }

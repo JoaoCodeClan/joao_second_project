@@ -41,6 +41,31 @@ public class RestaurantTest {
         assertEquals("Mamma tua!", actual);
     }
 
+    @Test
+
+    public void canGetincome(){
+        assertEquals(0, restaurant.getIncome(),0.01);
+    }
+
+    @Test
+    public void canSetIncome(){
+        restaurant.setIncome(100.0);
+        double actual = restaurant.getIncome();
+        assertEquals(100.0, actual, 0.01);
+    }
+
+    @Test
+
+    public void canGetMaxCapacity(){
+        assertEquals(20, restaurant.getCapacity());
+    }
+
+    @Test
+    public void canSetMaxCapacity(){
+        restaurant.setCapacity(40);
+        int actual = restaurant.getCapacity();
+        assertEquals(40, actual);
+    }
 
 
 }
