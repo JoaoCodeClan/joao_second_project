@@ -75,6 +75,18 @@ public class RestaurantTest {
         assertEquals(0, actual);
     }
 
-    
+
+    @Test
+
+    public void canAddTablesToSittings(){
+        restaurant.addTables(table1);
+        restaurant.addTables(table2);
+        restaurant.addTables(table3);
+        int actual = restaurant.countTables();
+        assertEquals(3, actual);
+        
+    }
+
+
 
 }

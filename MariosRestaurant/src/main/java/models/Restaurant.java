@@ -46,4 +46,8 @@ public class Restaurant {
     public int countTables() {
         return this.sittings.size();
     }
+
+    public void addTables(Table table) {
+        this.sittings.add(table);
+    }
 }
