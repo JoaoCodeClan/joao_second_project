@@ -45,5 +45,11 @@ public class Table {
     }
 
 
-
+    public void payTotalofTable(Client client) {
+        double tableTotal = 0.0;
+        for(Client patron : table){
+            tableTotal +=patron.getExpense();
+        }
+        client.setBill(tableTotal);
+    }
 }

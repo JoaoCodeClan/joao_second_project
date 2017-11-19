@@ -102,4 +102,24 @@ public class TableTest {
 
     }
 
+    @Test
+
+    public void oneClientpaystotalForTable(){
+        table.addClient(patron1);
+        table.addClient(patron2);
+        menu.addDish(dish1);
+        menu.addDish(dish2);
+        menu.addDish(dish3);
+        patron1.makeOrder(menu, dish1);
+        patron2.makeOrder(menu, dish2);
+        patron2.makeOrder(menu, dish3);
+        table.payTotalofTable(patron2);
+        double actual =patron2.getBill();
+        assertEquals(11.25,actual,0.01);
+
+
+
+
+    }
+
 }
