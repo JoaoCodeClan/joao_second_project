@@ -114,10 +114,12 @@
       <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,8 +128,8 @@
       <file leaf-file-name="MenuTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MenuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="324">
+              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -566,27 +568,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DishTest.canRemoveIngredientFromDish">
-    <configuration name="DishTest.canAddIngredientToIngredientsInDish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="com_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DishTest" />
-      <option name="METHOD_NAME" value="canAddIngredientToIngredientsInDish" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MenuTest.menuStartsEmpty">
     <configuration name="DishTest.canAddMultipleIngredientsToDish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
@@ -655,6 +637,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DishTest" />
       <option name="METHOD_NAME" value="canRemoveIngredientFromDish" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MenuTest.menuStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="com_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MenuTest" />
+      <option name="METHOD_NAME" value="menuStartsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -749,19 +751,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DishTest.canAddIngredientToIngredientsInDish" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DishTest.canAddMultipleIngredientsToDish" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsOnDish" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsNotOnDish" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DishTest.canRemoveIngredientFromDish" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DishTest.canAddMultipleIngredientsToDish" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsOnDish" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsNotOnDish" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DishTest.canRemoveIngredientFromDish" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MenuTest.menuStartsEmpty" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DishTest.canRemoveIngredientFromDish" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsNotOnDish" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsOnDish" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DishTest.canAddMultipleIngredientsToDish" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DishTest.canAddIngredientToIngredientsInDish" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MenuTest.menuStartsEmpty" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DishTest.canRemoveIngredientFromDish" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsNotOnDish" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsOnDish" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DishTest.canAddMultipleIngredientsToDish" />
       </list>
     </recent_temporary>
   </component>
@@ -800,14 +802,14 @@
     <history-entry file="DishTest_canRemoveIngredientFromDish - 2017.11.19 at 19h 09m 57s.xml">
       <configuration name="DishTest.canRemoveIngredientFromDish" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DishTest_canSetDishPrice - 2017.11.19 at 15h 26m 01s.xml">
-      <configuration name="DishTest.canSetDishPrice" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DishTest_dishIngredientsStartEmpty - 2017.11.19 at 15h 28m 52s.xml">
       <configuration name="DishTest.dishIngredientsStartEmpty" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DishTest_dishIngredientsStartEmpty - 2017.11.19 at 18h 50m 13s.xml">
       <configuration name="DishTest.dishIngredientsStartEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest_menuStartsEmpty - 2017.11.19 at 19h 20m 12s.xml">
+      <configuration name="MenuTest.menuStartsEmpty" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -822,7 +824,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -944,18 +946,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MenuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="324">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

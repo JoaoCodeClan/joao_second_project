@@ -1,5 +1,8 @@
 import models.Menu;
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class MenuTest {
 
@@ -13,6 +16,18 @@ public class MenuTest {
         menu= new Menu();
     }
 
+@Test
 
-    
+    public void menuStartsEmpty(){
+        int actual= menu.dishCount();
+    assertEquals(0, actual);
+
+}
+
+@Test
+
+    public void canAddDishToMenu(){
+        
+}
+
 }
