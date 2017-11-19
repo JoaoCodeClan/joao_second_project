@@ -42,4 +42,8 @@ public class Restaurant {
     public void setCapacity(int newCapacity) {
         this.maxcapacity = newCapacity;
     }
+
+    public int countTables() {
+        return this.sittings.size();
+    }
 }

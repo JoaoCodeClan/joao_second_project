@@ -68,4 +68,13 @@ public class RestaurantTest {
     }
 
 
+    @Test
+
+    public void canCountSittings(){
+        int actual = restaurant.countTables();
+        assertEquals(0, actual);
+    }
+
+    
+
 }
