@@ -32,4 +32,18 @@ public class Table {
         }
         return tableTotal;
     }
+
+    public void SplitTotalEqually() {
+        double tableTotal = 0.0;
+        for (Client client : table) {
+            tableTotal += client.getExpense();
+        }
+        for (Client client : table) {
+            double totalTable = tableTotal / table.size();
+            client.setBill(totalTable);
+        }
+    }
+
+
+
 }
