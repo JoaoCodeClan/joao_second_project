@@ -50,4 +50,12 @@ public class Restaurant {
     public void addTables(Table table) {
         this.sittings.add(table);
     }
+
+    public void removeTable(Table table) {
+        this.sittings.remove(table);
+    }
+
+    public boolean findtable(Table table) {
+        return this.sittings.contains(table);
+    }
 }

@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class RestaurantTest {
     Restaurant restaurant;
@@ -84,9 +85,30 @@ public class RestaurantTest {
         restaurant.addTables(table3);
         int actual = restaurant.countTables();
         assertEquals(3, actual);
-        
+
     }
 
+    @Test
+
+    public void canRemoveTableFromSittings(){
+        restaurant.addTables(table1);
+        restaurant.addTables(table2);
+        restaurant.addTables(table3);
+        restaurant.removeTable(table2);
+        int actual= restaurant.countTables();
+        assertEquals(2, actual);
+    }
+
+    @Test
+
+    public void canFindTableinSittings(){
+        restaurant.addTables(table1);
+        restaurant.addTables(table2);
+        restaurant.addTables(table3);
+        boolean actual= restaurant.findtable(table2);
+        assertTrue(actual);
+
+    }
 
 
 }
