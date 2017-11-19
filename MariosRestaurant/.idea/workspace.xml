@@ -45,8 +45,8 @@
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -65,10 +65,16 @@
       <file leaf-file-name="Patron.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Patron.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="308">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +83,8 @@
       <file leaf-file-name="PatronTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PatronTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="196">
+              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -590,15 +596,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MenuTest.canRemoveDishFromMenu">
-    <configuration name="MenuTest.canAddDishToMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PatronTest.patronCannotOrderItem">
+    <configuration name="PatronTest.canGetBillValueAndStartsAtZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MenuTest" />
-      <option name="METHOD_NAME" value="canAddDishToMenu" />
+      <option name="MAIN_CLASS_NAME" value="PatronTest" />
+      <option name="METHOD_NAME" value="canGetBillValueAndStartsAtZero" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -611,14 +617,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MenuTest.canAddMultipleDishesToMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PatronTest.canSetBill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MenuTest" />
-      <option name="METHOD_NAME" value="canAddMultipleDishesToMenu" />
+      <option name="MAIN_CLASS_NAME" value="PatronTest" />
+      <option name="METHOD_NAME" value="canSetBill" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -631,14 +637,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MenuTest.canFindItemOnMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PatronTest.patronCanAddItemsToOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MenuTest" />
-      <option name="METHOD_NAME" value="canFindItemOnMenu" />
+      <option name="MAIN_CLASS_NAME" value="PatronTest" />
+      <option name="METHOD_NAME" value="patronCanAddItemsToOrder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -651,14 +657,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MenuTest.canRemoveDishFromMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PatronTest.patronCannotOrderItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MenuTest" />
-      <option name="METHOD_NAME" value="canRemoveDishFromMenu" />
+      <option name="MAIN_CLASS_NAME" value="PatronTest" />
+      <option name="METHOD_NAME" value="patronCannotOrderItem" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -671,14 +677,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MenuTest.cannotFindItemOnMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PatronTest.patronOrderStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MenuTest" />
-      <option name="METHOD_NAME" value="cannotFindItemOnMenu" />
+      <option name="MAIN_CLASS_NAME" value="PatronTest" />
+      <option name="METHOD_NAME" value="patronOrderStartsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -773,19 +779,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MenuTest.canAddDishToMenu" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MenuTest.canAddMultipleDishesToMenu" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MenuTest.canFindItemOnMenu" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MenuTest.cannotFindItemOnMenu" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MenuTest.canRemoveDishFromMenu" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PatronTest.canGetBillValueAndStartsAtZero" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PatronTest.canSetBill" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PatronTest.patronOrderStartsEmpty" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCanAddItemsToOrder" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCannotOrderItem" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MenuTest.canRemoveDishFromMenu" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MenuTest.cannotFindItemOnMenu" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MenuTest.canFindItemOnMenu" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MenuTest.canAddMultipleDishesToMenu" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MenuTest.canAddDishToMenu" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCannotOrderItem" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCanAddItemsToOrder" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PatronTest.patronOrderStartsEmpty" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PatronTest.canSetBill" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PatronTest.canGetBillValueAndStartsAtZero" />
       </list>
     </recent_temporary>
   </component>
@@ -803,18 +809,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DishTest_canKnowIfIngredientIsNotOnDish - 2017.11.19 at 19h 02m 43s.xml">
-      <configuration name="DishTest.canKnowIfIngredientIsNotOnDish" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DishTest_canRemoveIngredientFromDish - 2017.11.19 at 19h 07m 31s.xml">
-      <configuration name="DishTest.canRemoveIngredientFromDish" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DishTest_canRemoveIngredientFromDish - 2017.11.19 at 19h 08m 28s.xml">
-      <configuration name="DishTest.canRemoveIngredientFromDish" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DishTest_canRemoveIngredientFromDish - 2017.11.19 at 19h 09m 57s.xml">
-      <configuration name="DishTest.canRemoveIngredientFromDish" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MenuTest_canAddDishToMenu - 2017.11.19 at 20h 19m 01s.xml">
       <configuration name="MenuTest.canAddDishToMenu" configurationId="JUnit" />
     </history-entry>
@@ -830,8 +824,20 @@
     <history-entry file="MenuTest_cannotFindItemOnMenu - 2017.11.19 at 20h 25m 54s.xml">
       <configuration name="MenuTest.cannotFindItemOnMenu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MenuTest_menuStartsEmpty - 2017.11.19 at 19h 20m 12s.xml">
-      <configuration name="MenuTest.menuStartsEmpty" configurationId="JUnit" />
+    <history-entry file="PatronTest_canGetBillValueAndStartsAtZero - 2017.11.19 at 20h 42m 04s.xml">
+      <configuration name="PatronTest.canGetBillValueAndStartsAtZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatronTest_canSetBill - 2017.11.19 at 20h 44m 01s.xml">
+      <configuration name="PatronTest.canSetBill" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatronTest_patronCanAddItemsToOrder - 2017.11.19 at 20h 53m 28s.xml">
+      <configuration name="PatronTest.patronCanAddItemsToOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatronTest_patronCannotOrderItem - 2017.11.19 at 20h 55m 27s.xml">
+      <configuration name="PatronTest.patronCannotOrderItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatronTest_patronOrderStartsEmpty - 2017.11.19 at 20h 46m 46s.xml">
+      <configuration name="PatronTest.patronOrderStartsEmpty" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -846,7 +852,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -944,24 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Patron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DishTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -994,10 +982,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Patron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PatronTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state relative-caret-position="196">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

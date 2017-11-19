@@ -16,4 +16,25 @@ public class Patron implements Client {
     }
 
 
+    public double getBill() {
+        return this.bill;
+    }
+
+
+
+    public void setBill(double newBill) {
+        this.bill = newBill;
+    }
+
+    public int itemsOnOrder() {
+         return this.order.size();
+    }
+
+
+    public void makeOrder(Menu menu, MenuItem item){
+        if(menu.menuHas(item)){
+            this.order.add(item);
+        }
+
+    }
 }
