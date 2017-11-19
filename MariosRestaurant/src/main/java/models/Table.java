@@ -13,4 +13,11 @@ public class Table {
 
     }
 
+    public int countClients() {
+        return this.table.size();
+    }
+
+    public void addClient(Client client) {
+        this.table.add(client);
+    }
 }
