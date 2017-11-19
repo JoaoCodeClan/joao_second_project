@@ -117,9 +117,7 @@ public class TableTest {
         double actual =patron2.getBill();
         assertEquals(11.25,actual,0.01);
 
-
-
-
     }
+
 
 }
