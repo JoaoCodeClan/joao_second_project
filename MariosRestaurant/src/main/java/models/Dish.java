@@ -1,8 +1,10 @@
 package models;
 
+import interfaces.MenuItem;
+
 import java.util.ArrayList;
 
-public class Dish {
+public class Dish implements MenuItem {
     private String name;
     private double price;
     private ArrayList<Ingredient> ingredients;
