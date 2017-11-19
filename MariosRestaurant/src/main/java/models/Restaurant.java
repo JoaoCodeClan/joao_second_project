@@ -9,7 +9,7 @@ public class Restaurant {
     private int maxcapacity;
     private ArrayList<Table> sittings;
 
-    public Restaurant(String name, double income, Menu menu, int maxcapacity){
+    public Restaurant(String name, double income, int maxcapacity){
         this.name = name;
         this.income = 0;
         this.menu = new Menu();
@@ -19,6 +19,11 @@ public class Restaurant {
     }
 
 
+    public String getName() {
+        return this.name;
+    }
 
-
+    public void setName(String newName) {
+        this.name = newName;
+    }
 }
