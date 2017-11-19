@@ -47,4 +47,12 @@ public class Patron implements Client {
             item.removeIngredient(ingredient);
         }
     }
+
+    public double getExpense() {
+        double total = 0 ;
+        for(MenuItem item: order){
+             total +=item.getPrice();
+        }
+        return total;
+    }
 }

@@ -1,3 +1,5 @@
+import models.Dish;
+import models.Menu;
 import models.Patron;
 import models.Table;
 import org.junit.Before;
@@ -11,6 +13,10 @@ public class TableTest {
     Patron patron2;
     Patron patron3;
     Table table;
+    Menu menu;
+    Dish dish1;
+    Dish dish2;
+    Dish dish3;
 
 
     @Before
@@ -20,6 +26,10 @@ public class TableTest {
         table = new Table();
         patron1 = new Patron();
         patron2= new Patron();
+        menu= new Menu();
+        dish1= new Dish("soup",3.0);
+        dish2 = new Dish( "drumsticks", 4.5);
+        dish3 = new Dish("chips", 3.75);
 
     }
 
@@ -48,8 +58,23 @@ public class TableTest {
         assertEquals(1, actual1);
     }
 
-    @Test
-    public
+//    @Test
+//    public void canCalculateTotalOfTable(){
+//        table.addClient(patron1);
+//        table.addClient(patron2);
+//
+//        int actual = table.countClients();
+//         assertEquals(2, actual);
+//
+//         patron1.makeOrder(menu, dish1);
+//         patron2.makeOrder(menu, dish2);
+//         patron2.makeOrder(menu, dish3);
+//
+//         double actual2= table.getTotalBill();
+//         assertEquals(11.25, actual2,0.01);
+
+
+//    }
 
 
 }

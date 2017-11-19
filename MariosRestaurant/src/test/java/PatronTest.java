@@ -136,5 +136,20 @@ public class PatronTest {
 
     }
 
+    @Test
+
+    public void canGetexpense(){
+
+        menu.addDish(dish1);
+        menu.addDish(dish2);
+
+        patron.makeOrder(menu,dish2);
+        patron.makeOrder(menu,dish1);
+
+        double actual = patron.getExpense();
+        assertEquals(7.5,actual,0.01);
+
+    }
+
 
 }

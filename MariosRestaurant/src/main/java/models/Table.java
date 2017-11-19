@@ -24,4 +24,10 @@ public class Table {
     public void removeClient(Client client) {
         this.table.remove(client);
     }
+
+    public double getTotalBill() {
+        for(Client client : table){
+            client.get
+        }
+    }
 }
