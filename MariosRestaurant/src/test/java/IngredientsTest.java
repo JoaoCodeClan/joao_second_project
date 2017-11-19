@@ -22,4 +22,11 @@ ingredient = new Ingredient("Passatta");
         assertEquals("Passatta",ingredient.getName());
 
     }
+    @Test
+
+    public void canSetNewName(){
+        ingredient.setName("CreamSauce");
+        String actual = ingredient.getName();
+        assertEquals("CreamSauce", actual);
+    }
 }

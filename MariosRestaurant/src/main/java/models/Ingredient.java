@@ -13,4 +13,8 @@ public class Ingredient {
     public String getName() {
         return this.name;
     }
+
+    public void setName(String newName) {
+        this.name = newName;
+    }
 }
