@@ -14,7 +14,7 @@ public class Restaurant {
         this.income = 0;
         this.menu = new Menu();
         this.maxcapacity= maxcapacity;
-        this.sittings = new ArrayList(); 
+        this.sittings = new ArrayList();
 
     }
 
