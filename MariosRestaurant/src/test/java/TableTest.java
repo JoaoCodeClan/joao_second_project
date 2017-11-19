@@ -58,23 +58,28 @@ public class TableTest {
         assertEquals(1, actual1);
     }
 
-//    @Test
-//    public void canCalculateTotalOfTable(){
-//        table.addClient(patron1);
-//        table.addClient(patron2);
-//
-//        int actual = table.countClients();
-//         assertEquals(2, actual);
-//
-//         patron1.makeOrder(menu, dish1);
-//         patron2.makeOrder(menu, dish2);
-//         patron2.makeOrder(menu, dish3);
-//
-//         double actual2= table.getTotalBill();
-//         assertEquals(11.25, actual2,0.01);
+    @Test
+    public void canCalculateTotalOfTable(){
+        table.addClient(patron1);
+        table.addClient(patron2);
+
+        int actual = table.countClients();
+         assertEquals(2, actual);
+
+         menu.addDish(dish1);
+         menu.addDish(dish2);
+         menu.addDish(dish3);
 
 
-//    }
+         patron1.makeOrder(menu, dish1);
+         patron2.makeOrder(menu, dish2);
+         patron2.makeOrder(menu, dish3);
+
+         double actual2= table.getTotalBill();
+         assertEquals(11.25, actual2,0.01);
+
+
+    }
 
 
 }

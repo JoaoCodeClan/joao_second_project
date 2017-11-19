@@ -26,8 +26,10 @@ public class Table {
     }
 
     public double getTotalBill() {
+        double tableTotal = 0.0;
         for(Client client : table){
-            client.get
+            tableTotal +=client.getExpense();
         }
+        return tableTotal;
     }
 }
