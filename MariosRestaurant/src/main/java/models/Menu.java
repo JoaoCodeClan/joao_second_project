@@ -17,4 +17,8 @@ public class Menu {
     public int dishCount() {
         return this.menu.size();
     }
+
+    public void addDish(MenuItem dish) {
+        this.menu.add(dish);
+    }
 }
