@@ -65,8 +65,8 @@
       <file leaf-file-name="Patron.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Patron.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="286">
+              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#325#326#0" expanded="true" />
@@ -75,6 +75,8 @@
                 <element signature="e#437#438#0" expanded="true" />
                 <element signature="e#470#471#0" expanded="true" />
                 <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +85,8 @@
       <file leaf-file-name="PatronTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PatronTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="279">
+              <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -596,15 +598,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PatronTest.patronCannotOrderItem">
-    <configuration name="PatronTest.canGetBillValueAndStartsAtZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PatronTest.canCheckIfPatronHasNotOrderedItem">
+    <configuration name="PatronTest.canCheckIfPatronHasNotOrderedItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PatronTest" />
-      <option name="METHOD_NAME" value="canGetBillValueAndStartsAtZero" />
+      <option name="METHOD_NAME" value="canCheckIfPatronHasNotOrderedItem" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -617,14 +619,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PatronTest.canSetBill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PatronTest.canCheckIfPatronOrderedItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PatronTest" />
-      <option name="METHOD_NAME" value="canSetBill" />
+      <option name="METHOD_NAME" value="canCheckIfPatronOrderedItem" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -779,19 +781,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PatronTest.canGetBillValueAndStartsAtZero" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PatronTest.canSetBill" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PatronTest.patronOrderStartsEmpty" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCanAddItemsToOrder" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCannotOrderItem" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PatronTest.patronOrderStartsEmpty" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCanAddItemsToOrder" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCannotOrderItem" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PatronTest.canCheckIfPatronOrderedItem" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PatronTest.canCheckIfPatronHasNotOrderedItem" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCannotOrderItem" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCanAddItemsToOrder" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PatronTest.patronOrderStartsEmpty" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PatronTest.canSetBill" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PatronTest.canGetBillValueAndStartsAtZero" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PatronTest.canCheckIfPatronHasNotOrderedItem" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PatronTest.canCheckIfPatronOrderedItem" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCannotOrderItem" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCanAddItemsToOrder" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PatronTest.patronOrderStartsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -809,12 +811,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MenuTest_canAddDishToMenu - 2017.11.19 at 20h 19m 01s.xml">
-      <configuration name="MenuTest.canAddDishToMenu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MenuTest_canAddMultipleDishesToMenu - 2017.11.19 at 20h 19m 43s.xml">
-      <configuration name="MenuTest.canAddMultipleDishesToMenu" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MenuTest_canFindItemOnMenu - 2017.11.19 at 20h 24m 43s.xml">
       <configuration name="MenuTest.canFindItemOnMenu" configurationId="JUnit" />
     </history-entry>
@@ -823,6 +819,12 @@
     </history-entry>
     <history-entry file="MenuTest_cannotFindItemOnMenu - 2017.11.19 at 20h 25m 54s.xml">
       <configuration name="MenuTest.cannotFindItemOnMenu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatronTest_canCheckIfPatronHasNotOrderedItem - 2017.11.19 at 21h 00m 32s.xml">
+      <configuration name="PatronTest.canCheckIfPatronHasNotOrderedItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatronTest_canCheckIfPatronOrderedItem - 2017.11.19 at 20h 59m 29s.xml">
+      <configuration name="PatronTest.canCheckIfPatronOrderedItem" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PatronTest_canGetBillValueAndStartsAtZero - 2017.11.19 at 20h 42m 04s.xml">
       <configuration name="PatronTest.canGetBillValueAndStartsAtZero" configurationId="JUnit" />
@@ -992,8 +994,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Patron.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="286">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#325#326#0" expanded="true" />
@@ -1002,14 +1004,16 @@
             <element signature="e#437#438#0" expanded="true" />
             <element signature="e#470#471#0" expanded="true" />
             <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PatronTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="279">
+          <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

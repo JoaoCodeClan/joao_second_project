@@ -37,4 +37,8 @@ public class Patron implements Client {
         }
 
     }
+
+    public boolean orderContains(MenuItem item) {
+        return this.order.contains(item);
+    }
 }

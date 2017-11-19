@@ -6,6 +6,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class PatronTest {
 
@@ -71,4 +73,29 @@ public class PatronTest {
         assertEquals(0, actual);
 
     }
+
+    @Test
+    public void canCheckIfPatronOrderedItem(){
+        menu.addDish(dish1);
+        menu.addDish(dish2);
+
+        patron.makeOrder(menu,dish2);
+        int actual= patron.itemsOnOrder();
+        assertEquals(1, actual);
+        boolean actual1 = patron.orderContains(dish2);
+        assertTrue(actual1);
+    }
+
+    @Test
+    public void canCheckIfPatronHasNotOrderedItem(){
+        menu.addDish(dish1);
+        menu.addDish(dish2);
+
+        patron.makeOrder(menu,dish2);
+        int actual= patron.itemsOnOrder();
+        assertEquals(1, actual);
+        boolean actual1 = patron.orderContains(dish1);
+        assertFalse(actual1);
+    }
+
 }
