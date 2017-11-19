@@ -37,5 +37,19 @@ public class TableTest {
         assertEquals(1, actual);
     }
 
-    
+    @Test
+    public void canRemoveClientFromTable(){
+        table.addClient(patron1);
+        table.addClient(patron2);
+        int actual= table.countClients();
+        assertEquals(2, actual);
+        table.removeClient(patron1);
+        int actual1= table.countClients();
+        assertEquals(1, actual1);
+    }
+
+    @Test
+    public
+
+
 }

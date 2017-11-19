@@ -20,4 +20,8 @@ public class Table {
     public void addClient(Client client) {
         this.table.add(client);
     }
+
+    public void removeClient(Client client) {
+        this.table.remove(client);
+    }
 }
