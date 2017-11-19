@@ -74,13 +74,18 @@ public class MenuTest {
     }
 
 
-//    @Test
+    @Test
 
-//    public void canRemoveDishFromMenu(){
-//        menu.addDish(dish1);
-//        menu.addDish(dish2);
-//        menu.addDish(dish3);
-//        int actual = menu.dishCount();
-//        assertEquals(3, actual)
-//    }
+    public void canRemoveDishFromMenu(){
+        menu.addDish(dish1);
+        menu.addDish(dish2);
+        menu.addDish(dish3);
+        int actual = menu.dishCount();
+        assertEquals(3, actual);
+        menu.removeItem(dish1);
+        int actual1 = menu.dishCount();
+        assertEquals(2, actual1);
+        boolean actual2= menu.menuHas(dish1);
+        assertFalse(actual2);
+    }
 }

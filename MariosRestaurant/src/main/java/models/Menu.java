@@ -25,4 +25,8 @@ public class Menu {
     public boolean menuHas(MenuItem dish) {
         return this.menu.contains(dish);
     }
+
+    public void removeItem(MenuItem dish) {
+        this.menu.remove(dish);
+    }
 }
