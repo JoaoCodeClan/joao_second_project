@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class DishTest {
@@ -87,6 +88,20 @@ public class DishTest {
         dish.addIngredient(ingredient1);
         dish.addIngredient(ingredient3);
         boolean actual = dish.containsIngredient(ingredient2);
-        assertTrue(actual);
+        assertFalse(actual);
+    }
+
+    @Test
+    public void canRemoveIngredientFromDish(){
+        dish.addIngredient(ingredient1);
+        dish.addIngredient(ingredient2);
+        dish.addIngredient(ingredient3);
+        int actual= dish.numberIngredients();
+        assertEquals(3, actual);
+        dish.removeIngredient(ingredient3);
+        int actual1=dish.numberIngredients();
+        assertEquals(2, actual1);
+        boolean actual2 = dish.containsIngredient(ingredient3);
+        assertFalse(actual2);
     }
 }

@@ -40,4 +40,8 @@ public class Dish {
     public boolean containsIngredient(Ingredient ingredient) {
          return this.ingredients.contains(ingredient);
     }
+
+    public void removeIngredient(Ingredient ingredient) {
+        this.ingredients.remove(ingredient);
+    }
 }

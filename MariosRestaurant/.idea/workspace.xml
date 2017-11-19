@@ -86,8 +86,8 @@
       <file leaf-file-name="Dish.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Dish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+            <state relative-caret-position="331">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="e#341#342#0" expanded="true" />
                 <element signature="e#373#374#0" expanded="true" />
@@ -103,6 +103,8 @@
                 <element signature="e#786#787#0" expanded="true" />
                 <element signature="e#850#851#0" expanded="true" />
                 <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,12 +113,12 @@
       <file leaf-file-name="DishTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DishTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="88" column="44" lean-forward="false" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+            <state relative-caret-position="275">
+              <caret line="104" column="29" lean-forward="true" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -536,7 +538,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DishTest.canKnowIfIngredientIsOnDish">
+  <component name="RunManager" selected="JUnit.DishTest.canRemoveIngredientFromDish">
     <configuration name="DishTest.canAddIngredientToIngredientsInDish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
@@ -577,6 +579,26 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="DishTest.canKnowIfIngredientIsNotOnDish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="com_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DishTest" />
+      <option name="METHOD_NAME" value="canKnowIfIngredientIsNotOnDish" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="DishTest.canKnowIfIngredientIsOnDish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
@@ -597,34 +619,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DishTest.canSetDishPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DishTest.canRemoveIngredientFromDish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DishTest" />
-      <option name="METHOD_NAME" value="canSetDishPrice" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="DishTest.dishIngredientsStartEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="com_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DishTest" />
-      <option name="METHOD_NAME" value="dishIngredientsStartEmpty" />
+      <option name="METHOD_NAME" value="canRemoveIngredientFromDish" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -719,19 +721,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DishTest.canSetDishPrice" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DishTest.dishIngredientsStartEmpty" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DishTest.canAddIngredientToIngredientsInDish" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DishTest.canAddMultipleIngredientsToDish" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsOnDish" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DishTest.canAddIngredientToIngredientsInDish" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DishTest.canAddMultipleIngredientsToDish" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsOnDish" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsNotOnDish" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DishTest.canRemoveIngredientFromDish" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsOnDish" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DishTest.canAddMultipleIngredientsToDish" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DishTest.canAddIngredientToIngredientsInDish" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DishTest.dishIngredientsStartEmpty" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DishTest.canSetDishPrice" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DishTest.canRemoveIngredientFromDish" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsNotOnDish" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DishTest.canKnowIfIngredientIsOnDish" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DishTest.canAddMultipleIngredientsToDish" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DishTest.canAddIngredientToIngredientsInDish" />
       </list>
     </recent_temporary>
   </component>
@@ -755,20 +757,20 @@
     <history-entry file="DishTest_canAddMultipleIngredientsToDish - 2017.11.19 at 18h 54m 00s.xml">
       <configuration name="DishTest.canAddMultipleIngredientsToDish" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DishTest_canGetDishName - 2017.11.19 at 15h 19m 31s.xml">
-      <configuration name="DishTest.canGetDishName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DishTest_canGetDishPrice - 2017.11.19 at 15h 22m 34s.xml">
-      <configuration name="DishTest.canGetDishPrice" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DishTest_canGetDishPrice - 2017.11.19 at 15h 23m 59s.xml">
       <configuration name="DishTest.canGetDishPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DishTest_canKnowIfIngredientIsNotOnDish - 2017.11.19 at 19h 02m 43s.xml">
+      <configuration name="DishTest.canKnowIfIngredientIsNotOnDish" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DishTest_canKnowIfIngredientIsOnDish - 2017.11.19 at 18h 58m 53s.xml">
       <configuration name="DishTest.canKnowIfIngredientIsOnDish" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DishTest_canSetDishName - 2017.11.19 at 15h 21m 14s.xml">
-      <configuration name="DishTest.canSetDishName" configurationId="JUnit" />
+    <history-entry file="DishTest_canRemoveIngredientFromDish - 2017.11.19 at 19h 07m 31s.xml">
+      <configuration name="DishTest.canRemoveIngredientFromDish" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DishTest_canRemoveIngredientFromDish - 2017.11.19 at 19h 08m 28s.xml">
+      <configuration name="DishTest.canRemoveIngredientFromDish" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DishTest_canSetDishPrice - 2017.11.19 at 15h 26m 01s.xml">
       <configuration name="DishTest.canSetDishPrice" configurationId="JUnit" />
@@ -818,7 +820,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/DishTest.java</url>
+          <line>94</line>
+          <properties class="DishTest" method="canRemoveIngredientFromDish">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -876,8 +888,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Dish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+        <state relative-caret-position="331">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="e#341#342#0" expanded="true" />
             <element signature="e#373#374#0" expanded="true" />
@@ -893,18 +905,20 @@
             <element signature="e#786#787#0" expanded="true" />
             <element signature="e#850#851#0" expanded="true" />
             <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DishTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="88" column="44" lean-forward="false" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+        <state relative-caret-position="275">
+          <caret line="104" column="29" lean-forward="true" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
           </folding>
         </state>
       </provider>
