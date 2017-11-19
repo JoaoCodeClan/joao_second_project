@@ -4,6 +4,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class MenuTest {
 
@@ -32,7 +34,7 @@ public class MenuTest {
 
 @Test
 
-    public void canAddDishToMenu(){
+    public void canAddItemToMenu(){
         menu.addDish(dish1);
         int actual = menu.dishCount();
         assertEquals(1, actual);
@@ -40,7 +42,7 @@ public class MenuTest {
 }
     @Test
 
-    public void canAddMultipleDishesToMenu(){
+    public void canAddMultipleItemsToMenu(){
         menu.addDish(dish1);
         menu.addDish(dish2);
         menu.addDish(dish3);
@@ -48,4 +50,37 @@ public class MenuTest {
         assertEquals(3, actual);
 
     }
+
+
+
+    @Test
+
+    public void canFindItemOnMenu(){
+        menu.addDish(dish1);
+        menu.addDish(dish2);
+        menu.addDish(dish3);
+        boolean actual = menu.menuHas(dish2);
+        assertTrue(actual);
+
+    }
+
+    @Test
+
+    public void cannotFindItemOnMenu(){
+        menu.addDish(dish1);
+        menu.addDish(dish2);
+        boolean actual = menu.menuHas(dish3);
+        assertFalse(actual);
+    }
+
+
+//    @Test
+
+//    public void canRemoveDishFromMenu(){
+//        menu.addDish(dish1);
+//        menu.addDish(dish2);
+//        menu.addDish(dish3);
+//        int actual = menu.dishCount();
+//        assertEquals(3, actual)
+//    }
 }

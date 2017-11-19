@@ -21,4 +21,8 @@ public class Menu {
     public void addDish(MenuItem dish) {
         this.menu.add(dish);
     }
+
+    public boolean menuHas(MenuItem dish) {
+        return this.menu.contains(dish);
+    }
 }
