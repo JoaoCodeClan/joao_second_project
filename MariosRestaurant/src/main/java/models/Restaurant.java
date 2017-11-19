@@ -1,5 +1,7 @@
 package models;
 
+import interfaces.Client;
+
 import java.util.ArrayList;
 
 public class Restaurant {
@@ -57,5 +59,11 @@ public class Restaurant {
 
     public boolean findtable(Table table) {
         return this.sittings.contains(table);
+    }
+
+    public void sitClient(Client client, Table table) {
+        if(this.sittings.contains(table)){
+            table.addClient(client);
+        }
     }
 }

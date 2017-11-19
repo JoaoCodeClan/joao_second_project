@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class RestaurantTest {
@@ -109,6 +110,33 @@ public class RestaurantTest {
         assertTrue(actual);
 
     }
+    @Test
 
+    public void cannotFindTableinSittings(){
+        restaurant.addTables(table1);
+        restaurant.addTables(table2);
+        restaurant.addTables(table3);
+        restaurant.removeTable(table2);
+        boolean actual= restaurant.findtable(table2);
+        assertFalse(actual);
+
+    }
+
+    @Test
+
+    public void canAddClientToSpecificTable(){
+        restaurant.addTables(table1);
+        restaurant.addTables(table2);
+        int actual = restaurant.countTables();
+        assertEquals(2,actual);
+
+        restaurant.sitClient(patron1,table1);
+
+        int actual1 = table1.countClients();
+        assertEquals(1,actual1);
+
+        int actual2 = table2.countClients();
+        assertEquals(0,actual2);
+    }
 
 }
