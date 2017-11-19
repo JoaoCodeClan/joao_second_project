@@ -1,10 +1,11 @@
 package models;
 
+import interfaces.Client;
 import interfaces.MenuItem;
 
 import java.util.ArrayList;
 
-public class Patron {
+public class Patron implements Client {
     private double bill;
     private ArrayList<MenuItem> order;
 
@@ -13,4 +14,6 @@ public class Patron {
         this.order = new ArrayList();
 
     }
+
+
 }
