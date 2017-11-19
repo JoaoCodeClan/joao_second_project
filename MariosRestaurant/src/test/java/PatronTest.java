@@ -98,4 +98,23 @@ public class PatronTest {
         assertFalse(actual1);
     }
 
+    @Test
+    public void patronCanAskToRemoveIngredientFromDish(){
+        dish1.addIngredient(ingredient1);
+        dish1.addIngredient(ingredient2);
+        menu.addDish(dish1);
+        menu.addDish(dish2);
+
+        int actual = menu.dishCount();
+        assertEquals(2, actual);
+        int actual1= dish1.numberIngredients();
+        assertEquals(2, actual1);
+        patron.costumiseItem(menu,dish1, ingredient2);
+        int actual2= dish1.numberIngredients();
+        assertEquals(1, actual2);
+        boolean actual3 = dish1.containsIngredient(ingredient2);
+        assertFalse(actual3);
+
+    }
+
 }

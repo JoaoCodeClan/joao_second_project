@@ -41,4 +41,10 @@ public class Patron implements Client {
     public boolean orderContains(MenuItem item) {
         return this.order.contains(item);
     }
+
+    public void costumiseItem(Menu menu, MenuItem item, Ingredient ingredient) {
+        if (menu.menuHas(item)){
+            item.removeIngredient(ingredient);
+        }
+    }
 }
