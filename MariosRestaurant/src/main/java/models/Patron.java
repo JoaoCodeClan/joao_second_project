@@ -10,7 +10,7 @@ public class Patron {
 
     public Patron(){
         this.bill = 0;
-        this.order = new ArrayList(); 
+        this.order = new ArrayList();
 
     }
 }
