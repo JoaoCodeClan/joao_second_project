@@ -210,6 +210,15 @@ public class RestaurantTest {
 
     }
 
+    @Test
+
+    public void canFindItemOnMenu(){
+        restaurant.addItemToMenu(dish1);
+        restaurant.addItemToMenu(dish2);
+        boolean actual = restaurant.menuHasItem(dish2);
+        assertTrue(actual);
+    }
+
 //    @Test
 //
 //    public void canCollectPaymentFromTableAndUpdateIncome(){

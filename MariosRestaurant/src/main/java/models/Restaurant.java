@@ -88,4 +88,8 @@ public class Restaurant {
     public void removeItemFromMenu(MenuItem item) {
         this.menu.removeItem(item);
     }
+
+    public boolean menuHasItem(MenuItem item) {
+        return this.menu.menuHas(item);
+    }
 }
