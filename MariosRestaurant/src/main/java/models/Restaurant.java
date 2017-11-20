@@ -99,7 +99,8 @@ public class Restaurant {
 
     public void clearTable(Table table) {
         if(this.sittings.contains(table)){
-            table.clearTable();
+             collectPayment(table);
+             table.clearTable();
         }
     }
 }
