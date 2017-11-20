@@ -18,8 +18,8 @@ public class DishTest {
     public void before(){
 
         ingredient1 = new Ingredient("spaghetti", 3.0, 5);
-        ingredient2 = new Ingredient("Passatta",3.0, 5);
-        ingredient3 = new Ingredient("Seafood mix", 3.0, 5);
+        ingredient2 = new Ingredient("Passatta",3.0, 9);
+        ingredient3 = new Ingredient("Seafood mix", 3.0, 3);
         dish = new Dish("Seafood spaghetti", 9.0);
     }
 
@@ -103,5 +103,21 @@ public class DishTest {
         assertEquals(2, actual1);
         boolean actual2 = dish.containsIngredient(ingredient3);
         assertFalse(actual2);
+    }
+
+    @Test
+     public void canReduceIngredientAmount(){
+        dish.addIngredient(ingredient1);
+        dish.addIngredient(ingredient2);
+        dish.addIngredient(ingredient3);
+
+        dish.reduceAmountOfIngredients();
+         int actual= ingredient1.getAmount();
+         int actual1= ingredient2.getAmount();
+         int actual2= ingredient3.getAmount();
+         assertEquals(4,actual);
+         assertEquals(8,actual1);
+         assertEquals(2,actual2);
+
     }
 }

@@ -46,4 +46,11 @@ public class Dish implements MenuItem {
     public void removeIngredient(Ingredient ingredient) {
         this.ingredients.remove(ingredient);
     }
+
+    public void reduceAmountOfIngredients() {
+        for(Ingredient ingredient: ingredients){
+            int amount = ingredient.getAmount();
+            ingredient.setAmount(amount -=1);
+        }
+    }
 }
