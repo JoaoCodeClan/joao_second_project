@@ -120,4 +120,24 @@ public class DishTest {
          assertEquals(2,actual2);
 
     }
+
+    @Test
+
+    public void canCheckForAmountOfIngredients(){
+         ingredient1.setAmount(0);
+         ingredient2.setAmount(0);
+         ingredient3.setAmount(1);
+
+        dish.addIngredient(ingredient1);
+        dish.addIngredient(ingredient2);
+        dish.addIngredient(ingredient3);
+
+        boolean actual =dish.checkIfPossibleToMakeItem();
+        assertFalse(actual);
+
+
+
+    }
+
+
 }

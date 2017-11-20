@@ -50,7 +50,17 @@ public class Dish implements MenuItem {
     public void reduceAmountOfIngredients() {
         for(Ingredient ingredient: ingredients){
             int amount = ingredient.getAmount();
-            ingredient.setAmount(amount -=1);
+            ingredient.setAmount(amount -= 1);
+            }
         }
+
+    public boolean checkIfPossibleToMakeItem() {
+        for(Ingredient ingredient: ingredients){
+            if(ingredient.getAmount()<=0){
+                return false;
+            }
+        } return true;
+
     }
+
 }

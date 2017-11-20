@@ -32,9 +32,11 @@ public class Patron implements Client {
 
 
     public void makeOrder(Menu menu, MenuItem item){
+
         if(menu.menuHas(item)){
+
             this.order.add(item);
-            item.reduceAmountOfIngredients();
+
         }
 
     }
