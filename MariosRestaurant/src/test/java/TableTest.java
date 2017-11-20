@@ -119,5 +119,18 @@ public class TableTest {
 
     }
 
+    @Test
+
+    public void canClearTable(){
+        table.addClient(patron1);
+        table.addClient(patron3);
+        table.addClient(patron2);
+        int actual = table.countClients();
+        assertEquals(3, actual);
+        table.clearTable();
+        int actual1= table.countClients();
+        assertEquals(0, actual1);
+    }
+
 
 }

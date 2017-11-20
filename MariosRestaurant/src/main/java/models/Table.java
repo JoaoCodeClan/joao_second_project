@@ -52,4 +52,8 @@ public class Table {
         }
         client.setBill(tableTotal);
     }
+
+    public void clearTable() {
+        this.table.clear();
+    }
 }
