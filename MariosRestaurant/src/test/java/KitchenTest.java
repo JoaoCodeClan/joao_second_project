@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class KitchenTest {
 
@@ -38,6 +39,15 @@ public class KitchenTest {
         kitchen.addItemToStock(ingredient1);
         int actual= kitchen.countStock();
         assertEquals(1, actual);
+    }
+
+    @Test
+
+    public void canLookForItemInStock(){
+        kitchen.addItemToStock(ingredient1);
+        kitchen.addItemToStock(ingredient2);
+       boolean actual =  kitchen.lookForStockItem(ingredient1);
+       assertTrue(actual);
     }
 
 

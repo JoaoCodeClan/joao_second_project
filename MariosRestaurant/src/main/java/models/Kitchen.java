@@ -16,4 +16,8 @@ public class Kitchen {
     public void addItemToStock(Ingredient ingredient) {
         this.stock.add(ingredient);
     }
+
+    public boolean lookForStockItem(Ingredient ingredient) {
+        return this.stock.contains(ingredient);
+    }
 }
