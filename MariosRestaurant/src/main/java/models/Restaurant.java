@@ -61,11 +61,6 @@ public class Restaurant {
         return this.sittings.contains(table);
     }
 
-//    public void sitClient(Client client, Table table) {
-//        if(this.sittings.contains(table)){
-//            table.addClient(client);
-//        }
-//    }
 
     public int countClientsOnTables() {
         int totalclients=0;
@@ -76,7 +71,7 @@ public class Restaurant {
     }
 
         public void sitClient(Client client, Table table) {
-        if(this.sittings.contains(table)&& (sittings.size()< (maxcapacity-1))){
+        if(this.sittings.contains(table)&& (countClientsOnTables()< maxcapacity)){
             table.addClient(client);
         }
     }
