@@ -8,4 +8,8 @@ public class Kitchen {
     public Kitchen(){
         this.stock= new ArrayList();
     }
+
+    public int countStock() {
+        return this.stock.size();
+    }
 }
