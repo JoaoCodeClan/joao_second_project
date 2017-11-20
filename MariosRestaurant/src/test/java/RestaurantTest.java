@@ -197,6 +197,18 @@ public class RestaurantTest {
 
     }
 
+    @Test
+
+    public void canRemoveItemfromMenu(){
+        restaurant.addItemToMenu(dish1);
+        restaurant.addItemToMenu(dish2);
+        int actual = restaurant.countItemsOnMenu();
+        assertEquals(2, actual);
+        restaurant.removeItemFromMenu(dish2);
+        int actual1= restaurant.countItemsOnMenu();
+        assertEquals(1, actual1);
+
+    }
 
 //    @Test
 //

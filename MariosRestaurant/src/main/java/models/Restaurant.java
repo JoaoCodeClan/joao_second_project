@@ -84,4 +84,8 @@ public class Restaurant {
     public void addItemToMenu(MenuItem item) {
         this.menu.addDish(item);
     }
+
+    public void removeItemFromMenu(MenuItem item) {
+        this.menu.removeItem(item);
+    }
 }
