@@ -20,10 +20,10 @@ public class KitchenTest {
     public void before(){
 
         kitchen = new Kitchen();
-        ingredient1 = new Ingredient("tomato sauce");
-        ingredient2 = new Ingredient("spaghetti");
-        ingredient3 = new Ingredient("chicken");
-        ingredient4 = new Ingredient("Mozarella");
+        ingredient1 = new Ingredient("tomato sauce", 3.0,5);
+        ingredient2 = new Ingredient("spaghetti",3.0, 5);
+        ingredient3 = new Ingredient("chicken",3.0, 5);
+        ingredient4 = new Ingredient("Mozarella", 3.0, 5);
 
     }
 
@@ -39,4 +39,6 @@ public class KitchenTest {
         int actual= kitchen.countStock();
         assertEquals(1, actual);
     }
+
+
 }

@@ -2,11 +2,14 @@ package models;
 
 public class Ingredient {
     private String name;
-//    private double price; to be added if wanted to create a way of manger to calculate the profits for restuarant;
+    private double price;
+    private int amount;
 
 
-    public Ingredient(String name){
+    public Ingredient(String name, double price, int amount){
         this.name= name;
+        this.price = price;
+        this.amount =amount;
     }
 
 
@@ -16,5 +19,13 @@ public class Ingredient {
 
     public void setName(String newName) {
         this.name = newName;
+    }
+
+    public double getPrice() {
+        return this.price;
+    }
+
+    public void setPrice(double newPrice) {
+        this.price = newPrice;
     }
 }

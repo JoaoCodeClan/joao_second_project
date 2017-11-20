@@ -13,10 +13,10 @@ public class IngredientsTest {
 
     public void  before(){
 
-ingredient = new Ingredient("Passatta");
+ingredient = new Ingredient("Passatta", 2.0, 3);
     }
 
-@Test
+    @Test
 
     public void canGetName(){
         assertEquals("Passatta",ingredient.getName());
@@ -28,5 +28,19 @@ ingredient = new Ingredient("Passatta");
         ingredient.setName("CreamSauce");
         String actual = ingredient.getName();
         assertEquals("CreamSauce", actual);
+    }
+
+    @Test
+
+    public void canGetPrice(){
+        assertEquals(2.0,ingredient.getPrice(), 0.01);
+
+    }
+    @Test
+
+    public void canSetPrice(){
+        ingredient.setPrice(4.0);
+       double actual = ingredient.getPrice();
+        assertEquals(4.0, actual, 0.01);
     }
 }

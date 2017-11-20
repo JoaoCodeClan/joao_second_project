@@ -27,8 +27,8 @@ public class PatronTest {
         menu = new Menu();
         dish1= new Dish("soup",3.0);
         dish2 = new Dish( "drumsticks", 4.5);
-        ingredient1 = new Ingredient("Passatta");
-        ingredient2 = new Ingredient("egg");
+        ingredient1 = new Ingredient("Passatta", 3.0, 5);
+        ingredient2 = new Ingredient("egg", 3.0, 5);
     }
 
 

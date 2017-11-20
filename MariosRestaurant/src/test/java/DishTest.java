@@ -17,9 +17,9 @@ public class DishTest {
 
     public void before(){
 
-        ingredient1 = new Ingredient("spaghetti");
-        ingredient2 = new Ingredient("Passatta");
-        ingredient3 = new Ingredient("Seafood mix");
+        ingredient1 = new Ingredient("spaghetti", 3.0, 5);
+        ingredient2 = new Ingredient("Passatta",3.0, 5);
+        ingredient3 = new Ingredient("Seafood mix", 3.0, 5);
         dish = new Dish("Seafood spaghetti", 9.0);
     }
 
