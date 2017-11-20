@@ -67,7 +67,7 @@ public class PatronTest {
 
 
     @Test
-    public void patronCannotOrderItem(){
+    public void patronCannotOrderItemAsItsNotOnMenu(){
 
         menu.addDish(dish1);
         patron.makeOrder(menu,dish2);
@@ -152,6 +152,23 @@ public class PatronTest {
         assertEquals(7.5,actual,0.01);
 
     }
+
+
+    @Test
+    public void patronCannotAddItemsToOrderdueToLowStock(){
+        ingredient1.setAmount(0);
+        ingredient2.setAmount(1);
+        dish1.addIngredient(ingredient1);
+        dish1.addIngredient(ingredient2);
+        menu.addDish(dish1);
+        menu.addDish(dish2);
+
+        patron.makeOrder(menu,dish1);
+        int actual= patron.itemsOnOrder();
+        assertEquals(0, actual);
+
+    }
+
 
 
 }

@@ -33,7 +33,7 @@ public class Patron implements Client {
 
     public void makeOrder(Menu menu, MenuItem item){
 
-        if(menu.menuHas(item)){
+        if(menu.menuHas(item) && item.checkIfPossibleToMakeItem()){
 
             this.order.add(item);
 
