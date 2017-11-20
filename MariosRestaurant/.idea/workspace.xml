@@ -61,8 +61,8 @@
       <file leaf-file-name="Restaurant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Restaurant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="92" column="39" lean-forward="false" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
+            <state relative-caret-position="331">
+              <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#539#540#0" expanded="true" />
@@ -93,6 +93,8 @@
                 <element signature="e#1968#1969#0" expanded="true" />
                 <element signature="e#2017#2018#0" expanded="true" />
                 <element signature="e#2063#2064#0" expanded="true" />
+                <element signature="e#2110#2111#0" expanded="true" />
+                <element signature="e#2160#2161#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,16 +115,16 @@
       <file leaf-file-name="RestaurantTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RestaurantTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="217" column="41" lean-forward="false" selection-start-line="217" selection-start-column="41" selection-end-line="217" selection-end-column="41" />
+            <state relative-caret-position="280">
+              <caret line="246" column="39" lean-forward="true" selection-start-line="246" selection-start-column="39" selection-end-line="246" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#1012#1013#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
-                <element signature="e#1298#1299#0" expanded="true" />
-                <element signature="e#1356#1357#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -501,8 +503,8 @@
         <option value="$PROJECT_DIR$/src/main/java/interfaces/Client.java" />
         <option value="$PROJECT_DIR$/src/test/java/TableTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Table.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RestaurantTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RestaurantTest.java" />
       </list>
     </option>
   </component>
@@ -614,7 +616,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestaurantTest.canFindItemOnMenu">
+  <component name="RunManager" selected="JUnit.RestaurantTest.canCollectPaymentFromTableAndUpdateIncome">
     <configuration name="RestaurantTest.canAddItemToMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
@@ -623,6 +625,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RestaurantTest" />
       <option name="METHOD_NAME" value="canAddItemToMenu" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="RestaurantTest.canCollectPaymentFromTableAndUpdateIncome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="com_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestaurantTest" />
+      <option name="METHOD_NAME" value="canCollectPaymentFromTableAndUpdateIncome" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -683,26 +705,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RestaurantTest" />
       <option name="METHOD_NAME" value="menuStartsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TableTest.canClearTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="com_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TableTest" />
-      <option name="METHOD_NAME" value="canClearTable" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -797,19 +799,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TableTest.canClearTable" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RestaurantTest.menuStartsEmpty" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canAddItemToMenu" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canRemoveItemfromMenu" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canFindItemOnMenu" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RestaurantTest.menuStartsEmpty" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canAddItemToMenu" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canRemoveItemfromMenu" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canFindItemOnMenu" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canCollectPaymentFromTableAndUpdateIncome" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canFindItemOnMenu" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canRemoveItemfromMenu" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canAddItemToMenu" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RestaurantTest.menuStartsEmpty" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TableTest.canClearTable" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canCollectPaymentFromTableAndUpdateIncome" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canFindItemOnMenu" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canRemoveItemfromMenu" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RestaurantTest.canAddItemToMenu" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RestaurantTest.menuStartsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -833,17 +835,17 @@
     <history-entry file="RestaurantTest_canAddItemToMenu - 2017.11.20 at 11h 04m 37s.xml">
       <configuration name="RestaurantTest.canAddItemToMenu" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RestaurantTest_canCollectPaymentFromTableAndUpdateIncome - 2017.11.20 at 11h 16m 59s.xml">
+      <configuration name="RestaurantTest.canCollectPaymentFromTableAndUpdateIncome" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestaurantTest_canCollectPaymentFromTableAndUpdateIncome - 2017.11.20 at 11h 17m 23s.xml">
+      <configuration name="RestaurantTest.canCollectPaymentFromTableAndUpdateIncome" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="RestaurantTest_canFindItemOnMenu - 2017.11.20 at 11h 10m 33s.xml">
       <configuration name="RestaurantTest.canFindItemOnMenu" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RestaurantTest_canRemoveItemfromMenu - 2017.11.20 at 11h 07m 37s.xml">
       <configuration name="RestaurantTest.canRemoveItemfromMenu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestaurantTest_cannotAddClientToSpecificTableDueTOMaxCapacity - 2017.11.20 at 09h 58m 10s.xml">
-      <configuration name="RestaurantTest.cannotAddClientToSpecificTableDueTOMaxCapacity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestaurantTest_cannotAddClientToSpecificTableDueTOMaxCapacity - 2017.11.20 at 10h 05m 37s.xml">
-      <configuration name="RestaurantTest.cannotAddClientToSpecificTableDueTOMaxCapacity" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RestaurantTest_cannotAddClientToSpecificTableDueTOMaxCapacity - 2017.11.20 at 10h 06m 51s.xml">
       <configuration name="RestaurantTest.cannotAddClientToSpecificTableDueTOMaxCapacity" configurationId="JUnit" />
@@ -1032,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Restaurant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="92" column="39" lean-forward="false" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
+        <state relative-caret-position="331">
+          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#539#540#0" expanded="true" />
@@ -1064,22 +1066,24 @@
             <element signature="e#1968#1969#0" expanded="true" />
             <element signature="e#2017#2018#0" expanded="true" />
             <element signature="e#2063#2064#0" expanded="true" />
+            <element signature="e#2110#2111#0" expanded="true" />
+            <element signature="e#2160#2161#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RestaurantTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="217" column="41" lean-forward="false" selection-start-line="217" selection-start-column="41" selection-end-line="217" selection-end-column="41" />
+        <state relative-caret-position="280">
+          <caret line="246" column="39" lean-forward="true" selection-start-line="246" selection-start-column="39" selection-end-line="246" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,7 +1,4 @@
-import models.Dish;
-import models.Patron;
-import models.Restaurant;
-import models.Table;
+import models.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,6 +16,8 @@ public class RestaurantTest {
     Dish dish1;
     Dish dish2;
 
+    Menu menu;
+
 
     @Before
 
@@ -31,6 +30,7 @@ public class RestaurantTest {
         patron2 = new Patron();
         dish1= new Dish("soup",3.0);
         dish2= new Dish("chips",3.0);
+        menu= new Menu();
 
     }
 
@@ -219,25 +219,33 @@ public class RestaurantTest {
         assertTrue(actual);
     }
 
-//    @Test
-//
-//    public void canCollectPaymentFromTableAndUpdateIncome(){
-//        restaurant.setCapacity(1);
-//        restaurant.addTables(table1);
-//        restaurant.addTables(table2);
-//        int actual = restaurant.countTables();
-//        assertEquals(2,actual);
-//
-//        restaurant.sitClient(patron1,table1);
-//
-//        int actual1 = table1.countClients();
-//        assertEquals(1,actual1);
-//
-//        restaurant.sitClient(patron2, table2);
-//
-//        int actual2 = table2.countClients();
-//        assertEquals(0,actual2);
-//    }
+    @Test
 
-//}
+    public void canCollectPaymentFromTableAndUpdateIncome(){
+        restaurant.setCapacity(20);
+        restaurant.addTables(table1);
+        restaurant.addTables(table2);
+        menu.addDish(dish1);
+        menu.addDish(dish2);
+        int actual = restaurant.countTables();
+        assertEquals(2,actual);
+
+        restaurant.sitClient(patron1,table1);
+
+        int actual1 = table1.countClients();
+        assertEquals(1,actual1);
+
+        restaurant.sitClient(patron2, table2);
+
+        int actual2 = table2.countClients();
+        assertEquals(1,actual2);
+
+        patron1.makeOrder(menu, dish1);
+
+        restaurant.collectPayment(table1);
+        double actual3= restaurant.getIncome();
+        assertEquals(3, actual3, 0.01);
+    }
+
 }
+

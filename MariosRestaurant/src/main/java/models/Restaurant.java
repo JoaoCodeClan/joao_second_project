@@ -92,4 +92,8 @@ public class Restaurant {
     public boolean menuHasItem(MenuItem item) {
         return this.menu.menuHas(item);
     }
+
+    public void collectPayment(Table table) {
+        this.income +=table.getTotalBill();
+    }
 }
