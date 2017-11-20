@@ -12,4 +12,8 @@ public class Kitchen {
     public int countStock() {
         return this.stock.size();
     }
+
+    public void addItemToStock(Ingredient ingredient) {
+        this.stock.add(ingredient);
+    }
 }

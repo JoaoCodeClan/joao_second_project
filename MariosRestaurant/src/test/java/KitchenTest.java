@@ -32,4 +32,11 @@ public class KitchenTest {
     public void kitchenStartsEmpty(){
         assertEquals(0, kitchen.countStock());
     }
+
+    @Test
+    public void canAddItemsToStock(){
+        kitchen.addItemToStock(ingredient1);
+        int actual= kitchen.countStock();
+        assertEquals(1, actual);
+    }
 }
