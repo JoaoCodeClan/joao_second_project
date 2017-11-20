@@ -1,11 +1,11 @@
+import models.Dish;
 import models.Ingredient;
 import models.Kitchen;
+import models.Menu;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class KitchenTest {
 
@@ -14,7 +14,9 @@ public class KitchenTest {
     Ingredient ingredient2;
     Ingredient ingredient3;
     Ingredient ingredient4;
-
+    Dish dish1;
+    Dish dish2;
+    Menu menu;
 
     @Before
 
@@ -26,6 +28,9 @@ public class KitchenTest {
         ingredient2 = new Ingredient("spaghetti",3.0, 5);
         ingredient3 = new Ingredient("chicken",3.0, 5);
         ingredient4 = new Ingredient("Mozarella", 3.0, 5);
+        dish1= new Dish("dish1",10.0);
+        dish2= new Dish("dish2", 12.0);
+        menu= new Menu();
 
     }
 
@@ -68,6 +73,8 @@ public class KitchenTest {
         assertFalse(actual2);
 
     }
+
+
 
 
 }
