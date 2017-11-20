@@ -96,4 +96,10 @@ public class Restaurant {
     public void collectPayment(Table table) {
         this.income +=table.getTotalBill();
     }
+
+    public void clearTable(Table table) {
+        if(this.sittings.contains(table)){
+            table.clearTable();
+        }
+    }
 }
