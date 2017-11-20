@@ -20,4 +20,8 @@ public class Kitchen {
     public boolean lookForStockItem(Ingredient ingredient) {
         return this.stock.contains(ingredient);
     }
+
+    public void removeItemFromStock(Ingredient ingredient) {
+        this.stock.remove(ingredient);
+    }
 }

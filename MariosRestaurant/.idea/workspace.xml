@@ -103,8 +103,8 @@
       <file leaf-file-name="Kitchen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Kitchen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            <state relative-caret-position="271">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="e#130#131#0" expanded="true" />
                 <element signature="e#173#174#0" expanded="true" />
@@ -114,6 +114,8 @@
                 <element signature="e#343#344#0" expanded="true" />
                 <element signature="e#405#406#0" expanded="true" />
                 <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,12 +124,12 @@
       <file leaf-file-name="KitchenTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/KitchenTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="151">
+              <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -621,7 +623,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KitchenTest.canLookForItemInStock">
+  <component name="RunManager" selected="JUnit.KitchenTest.canRemoveItemfromStock">
+    <configuration name="All in com_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="com_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="IngredientsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
@@ -662,26 +684,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="KitchenTest.canAddItemsToStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="com_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KitchenTest" />
-      <option name="METHOD_NAME" value="canAddItemsToStock" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="KitchenTest.canLookForItemInStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
@@ -702,14 +704,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="KitchenTest.kitchenStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KitchenTest.canRemoveItemfromStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="KitchenTest" />
-      <option name="METHOD_NAME" value="kitchenStartsEmpty" />
+      <option name="METHOD_NAME" value="canRemoveItemfromStock" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -804,19 +806,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.KitchenTest.kitchenStartsEmpty" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.KitchenTest.canAddItemsToStock" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.IngredientsTest.canGetPrice" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.IngredientsTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.KitchenTest.canLookForItemInStock" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.IngredientsTest.canGetPrice" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.IngredientsTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.KitchenTest.canLookForItemInStock" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in com_test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.KitchenTest.canRemoveItemfromStock" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.KitchenTest.canLookForItemInStock" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.IngredientsTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.IngredientsTest.canGetPrice" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.KitchenTest.canAddItemsToStock" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.KitchenTest.kitchenStartsEmpty" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.KitchenTest.canRemoveItemfromStock" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in com_test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.KitchenTest.canLookForItemInStock" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.IngredientsTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.IngredientsTest.canGetPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -834,6 +836,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="All_in_com_test - 2017.11.20 at 11h 57m 52s.xml">
+      <configuration name="All in com_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="IngredientsTest - 2017.11.20 at 11h 42m 30s.xml">
       <configuration name="IngredientsTest" configurationId="JUnit" />
     </history-entry>
@@ -852,14 +857,11 @@
     <history-entry file="KitchenTest_canLookForItemInStock - 2017.11.20 at 11h 57m 06s.xml">
       <configuration name="KitchenTest.canLookForItemInStock" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="KitchenTest_canRemoveItemfromStock - 2017.11.20 at 12h 37m 16s.xml">
+      <configuration name="KitchenTest.canRemoveItemfromStock" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="KitchenTest_kitchenStartsEmpty - 2017.11.20 at 11h 33m 01s.xml">
       <configuration name="KitchenTest.kitchenStartsEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestaurantTest_canCollectPaymentFromTableAndUpdateIncome - 2017.11.20 at 11h 17m 23s.xml">
-      <configuration name="RestaurantTest.canCollectPaymentFromTableAndUpdateIncome" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestaurantTest_canEmptytable - 2017.11.20 at 11h 24m 41s.xml">
-      <configuration name="RestaurantTest.canEmptytable" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RestaurantTest_canEmptytable - 2017.11.20 at 11h 26m 10s.xml">
       <configuration name="RestaurantTest.canEmptytable" configurationId="JUnit" />
@@ -1101,8 +1103,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Kitchen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        <state relative-caret-position="271">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="e#130#131#0" expanded="true" />
             <element signature="e#173#174#0" expanded="true" />
@@ -1112,18 +1114,20 @@
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#405#406#0" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/KitchenTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        <state relative-caret-position="151">
+          <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
           </folding>
         </state>
       </provider>
