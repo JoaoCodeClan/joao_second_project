@@ -1,12 +1,11 @@
+import models.Dish;
 import models.Patron;
 import models.Restaurant;
 import models.Table;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class RestaurantTest {
     Restaurant restaurant;
@@ -16,6 +15,9 @@ public class RestaurantTest {
 
     Patron patron1;
     Patron patron2;
+
+    Dish dish1;
+    Dish dish2;
 
 
     @Before
@@ -27,6 +29,8 @@ public class RestaurantTest {
         table3= new Table();
         patron1 = new Patron();
         patron2 = new Patron();
+        dish1= new Dish("soup",3.0);
+        dish2= new Dish("chips",3.0);
 
     }
 
@@ -180,6 +184,16 @@ public class RestaurantTest {
     public void menuStartsEmpty() {
         int actual= restaurant.countItemsOnMenu();
         assertEquals(0,actual);
+
+    }
+
+    @Test
+
+    public void canAddItemToMenu(){
+        restaurant.addItemToMenu(dish1);
+        restaurant.addItemToMenu(dish2);
+        int actual = restaurant.countItemsOnMenu();
+        assertEquals(2, actual);
 
     }
 

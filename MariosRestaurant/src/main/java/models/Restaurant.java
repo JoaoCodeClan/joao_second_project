@@ -1,6 +1,7 @@
 package models;
 
 import interfaces.Client;
+import interfaces.MenuItem;
 
 import java.util.ArrayList;
 
@@ -78,5 +79,9 @@ public class Restaurant {
 
     public int countItemsOnMenu() {
         return this.menu.dishCount();
+    }
+
+    public void addItemToMenu(MenuItem item) {
+        this.menu.addDish(item);
     }
 }
