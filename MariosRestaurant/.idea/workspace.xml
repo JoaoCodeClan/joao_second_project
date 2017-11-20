@@ -58,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Restaurant.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Restaurant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Restaurant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
@@ -96,6 +96,29 @@
                 <element signature="e#2110#2111#0" expanded="true" />
                 <element signature="e#2160#2161#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kitchen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Kitchen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KitchenTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/KitchenTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,30 +188,6 @@
                 <element signature="e#268#269#0" expanded="true" />
                 <element signature="e#1202#1203#0" expanded="true" />
                 <element signature="e#1236#1237#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MenuTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-367">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="23" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dish.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Dish.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -505,6 +504,7 @@
         <option value="$PROJECT_DIR$/src/main/java/models/Table.java" />
         <option value="$PROJECT_DIR$/src/test/java/RestaurantTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Kitchen.java" />
       </list>
     </option>
   </component>
@@ -1085,6 +1085,25 @@
             <element signature="e#2110#2111#0" expanded="true" />
             <element signature="e#2160#2161#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Kitchen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/KitchenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
