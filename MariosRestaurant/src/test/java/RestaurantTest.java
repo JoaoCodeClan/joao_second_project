@@ -174,4 +174,35 @@ public class RestaurantTest {
         int actual2 = table2.countClients();
         assertEquals(0,actual2);
     }
+
+    @Test
+
+    public void menuStartsEmpty() {
+        int actual= restaurant.countItemsOnMenu();
+        assertEquals(0,actual);
+
+    }
+
+
+//    @Test
+//
+//    public void canCollectPaymentFromTableAndUpdateIncome(){
+//        restaurant.setCapacity(1);
+//        restaurant.addTables(table1);
+//        restaurant.addTables(table2);
+//        int actual = restaurant.countTables();
+//        assertEquals(2,actual);
+//
+//        restaurant.sitClient(patron1,table1);
+//
+//        int actual1 = table1.countClients();
+//        assertEquals(1,actual1);
+//
+//        restaurant.sitClient(patron2, table2);
+//
+//        int actual2 = table2.countClients();
+//        assertEquals(0,actual2);
+//    }
+
+//}
 }

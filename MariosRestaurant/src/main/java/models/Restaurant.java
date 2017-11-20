@@ -75,4 +75,8 @@ public class Restaurant {
             table.addClient(client);
         }
     }
+
+    public int countItemsOnMenu() {
+        return this.menu.dishCount();
+    }
 }
