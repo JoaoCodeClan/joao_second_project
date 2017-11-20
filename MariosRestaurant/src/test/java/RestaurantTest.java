@@ -139,4 +139,39 @@ public class RestaurantTest {
         assertEquals(0,actual2);
     }
 
+
+    @Test
+
+    public void canCountClientsOnsittings(){
+        restaurant.addTables(table1);
+        restaurant.addTables(table2);
+        restaurant.addTables(table3);
+        int actual = restaurant.countTables();
+        assertEquals(3,actual);
+
+        restaurant.sitClient(patron1,table1);
+        restaurant.sitClient(patron2,table2);
+        int actual1 = restaurant.countClientsOnTables();
+        assertEquals(2, actual1);
+    }
+
+//    @Test
+//
+//    public void cannotAddClientToSpecificTableDueTOMaxCapacity(){
+//        restaurant.setCapacity(2);
+//        restaurant.addTables(table1);
+//        restaurant.addTables(table2);
+//        int actual = restaurant.countTables();
+//        assertEquals(2,actual);
+//
+//        restaurant.sitClient(patron1,table1);
+//
+//        int actual1 = table1.countClients();
+//        assertEquals(1,actual1);
+//
+//        restaurant.sitClient(patron2, table1);
+//
+//        int actual2 = table.countClients();
+//        assertEquals(0,actual2);
+//    }
 }
