@@ -16,8 +16,8 @@ dependencies {
     compile group: 'postgresql', name: 'postgresql', version: '9.0-801.jdbc4'
 }
 
-buildscript {
-    dependencies {
-        classpath 'postgresql:postgresql:9.0-801.jdbc4'
-    }
-}
+//buildscript {
+//    dependencies {
+//        classpath 'postgresql:postgresql:9.0-801.jdbc4'
+//    }
+//}
