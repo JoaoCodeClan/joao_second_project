@@ -350,6 +350,7 @@ public void  canCalculateTotalCostsOfStock(){
     restaurant.addItemToMenu(dish2);
     restaurant.addItemToKitchenStock(ingredient1);
     restaurant.addItemToKitchenStock(ingredient2);
+    Menu menu = restaurant.showMenu();
     patron1.makeOrder(menu, dish3);
     restaurant.collectPayment(table1);
     double actual = restaurant.calculateProfit();

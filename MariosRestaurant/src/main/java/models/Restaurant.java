@@ -134,5 +134,9 @@ public class Restaurant {
         return profit;
     }
 
+    public Menu showMenu(){
+        return this.menu;
+    }
+
 
 }
