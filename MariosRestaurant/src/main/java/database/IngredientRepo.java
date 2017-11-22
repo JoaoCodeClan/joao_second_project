@@ -41,7 +41,9 @@ public void save(Ingredient ingredient){
     }
 }
 
-    public ArrayList<Ingredient> showAll(){
+
+
+public ArrayList<Ingredient> showAll(){
 
     ArrayList<Ingredient> allIngredients = new ArrayList<>();
 
@@ -61,10 +63,8 @@ while (resultSet.next()){
 
     allIngredients.add(ingredient);
 }
-
             resultSet.close();
             statement.close();
-//            c.commit();
             c.close();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -76,5 +76,96 @@ while (resultSet.next()){
 
 
 }
+
+public void updateIngredientName(int id, String name){
+    try {
+        Connection c = connect();
+
+        PreparedStatement preparedStatement = c.prepareStatement(
+                "UPDATE INGREDIENTS SET(NAME,PRICE,AMOUNT)=(?,price, amount)WHERE id=?");
+
+        preparedStatement.setString(1, name);
+        preparedStatement.setDouble(2, id);
+
+
+        preparedStatement.executeUpdate();
+        preparedStatement.close();
+        c.close();
+    } catch (SQLException e) {
+        e.printStackTrace();
+    } catch (ClassNotFoundException e) {
+        e.printStackTrace();
+    }
+
+}
+
+
+
+public void updateIngredientPrice(int id, double price){
+        try {
+            Connection c = connect();
+
+            PreparedStatement preparedStatement = c.prepareStatement(
+                    "UPDATE INGREDIENTS SET(NAME,PRICE,AMOUNT)=(name,?, amount)WHERE id=?");
+
+            preparedStatement.setDouble(1, price);
+            preparedStatement.setDouble(2, id);
+
+
+            preparedStatement.executeUpdate();
+            preparedStatement.close();
+            c.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+}
+
+
+public void updateIngredientAmount(int id, int amount){
+        try {
+            Connection c = connect();
+
+            PreparedStatement preparedStatement = c.prepareStatement(
+                    "UPDATE INGREDIENTS SET(NAME,PRICE,AMOUNT)=(name,price, ?)WHERE id=?");
+
+            preparedStatement.setInt(1, amount);
+            preparedStatement.setDouble(2, id);
+
+
+            preparedStatement.executeUpdate();
+            preparedStatement.close();
+            c.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public void deleteIngredient(int id){
+        try {
+            Connection c = connect();
+
+            PreparedStatement preparedStatement = c.prepareStatement(
+                    "DELETE FROM INGREDIENTS WHERE id=?");
+
+            preparedStatement.setInt(1, id);
+
+            preparedStatement.executeUpdate();
+            preparedStatement.close();
+            c.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+
 
 }

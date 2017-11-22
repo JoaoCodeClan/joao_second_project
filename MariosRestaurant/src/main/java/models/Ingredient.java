@@ -44,4 +44,8 @@ public class Ingredient {
     public void setAmount(int newAmount) {
         this.amount = newAmount;
     }
+
+    public int getId(){
+        return this.id;
+    }
 }
