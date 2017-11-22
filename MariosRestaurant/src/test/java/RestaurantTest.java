@@ -18,6 +18,11 @@ public class RestaurantTest {
 
     Menu menu;
 
+    Ingredient ingredient1;
+    Ingredient ingredient2;
+    Ingredient ingredient3;
+
+
     Kitchen kitchen;
 
 
@@ -33,6 +38,10 @@ public class RestaurantTest {
         dish1 = new Dish("soup", 3.0);
         dish2 = new Dish("chips", 3.0);
         menu = new Menu();
+        kitchen = new Kitchen();
+        ingredient1 = new Ingredient("spaghetti", 3.0, 5);
+        ingredient2 = new Ingredient("Passatta",3.0, 9);
+        ingredient3 = new Ingredient("Seafood mix", 3.0, 3);
 
     }
 
@@ -270,8 +279,53 @@ public class RestaurantTest {
 
 
     @Test
-    public void canGetProfit(){
-        restaurant.
+
+    public void restaurantKitchenStartsEmpty(){
+        assertEquals(0,restaurant.countItemsOnKitchen());
     }
+
+    @Test
+
+    public void canAddItemToKitchenStock(){
+        restaurant.addItemToKitchenStock(ingredient1);
+        restaurant.addItemToKitchenStock(ingredient2);
+        restaurant.addItemToKitchenStock(ingredient3);
+        int actual = restaurant.countItemsOnKitchen();
+        assertEquals(3, actual);
+    }
+
+    @Test
+
+    public void canRmoveItemFromKitchen(){
+        restaurant.addItemToKitchenStock(ingredient1);
+        restaurant.addItemToKitchenStock(ingredient2);
+        restaurant.addItemToKitchenStock(ingredient3);
+        restaurant.removeItemFromKitchenStock(ingredient2);
+        int actual = restaurant.countItemsOnKitchen();
+        assertEquals(2, actual);
+
+    }
+@Test
+
+    public void canFinfItemInKitchen(){
+
+    restaurant.addItemToKitchenStock(ingredient1);
+    restaurant.addItemToKitchenStock(ingredient2);
+    restaurant.addItemToKitchenStock(ingredient3);
+    boolean actual = restaurant.KitchenStockHasItem(ingredient2);
+    assertTrue(actual);
+}
+
+@Test
+
+    public void cannnotFIndItemInKitchenStock(){
+    restaurant.addItemToKitchenStock(ingredient1);
+    restaurant.addItemToKitchenStock(ingredient2);
+    boolean actual = restaurant.KitchenStockHasItem(ingredient3);
+    assertFalse(actual);
+
+}
+
+
 }
 

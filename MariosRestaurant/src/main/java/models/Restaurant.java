@@ -108,4 +108,22 @@ public class Restaurant {
     }
 
 
+    public int countItemsOnKitchen() {
+        return this.kitchen.countStock();
+    }
+
+    public void addItemToKitchenStock(Ingredient ingredient) {
+        this.kitchen.addItemToStock(ingredient);
+    }
+
+    public void removeItemFromKitchenStock(Ingredient ingredient) {
+        this.kitchen.removeItemFromStock(ingredient);
+    }
+
+    public boolean KitchenStockHasItem(Ingredient ingredient) {
+        return this.kitchen.lookForStockItem(ingredient);
+    }
+
+
+
 }
