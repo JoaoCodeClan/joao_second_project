@@ -18,6 +18,8 @@ public class RestaurantTest {
 
     Menu menu;
 
+    Kitchen kitchen;
+
 
     @Before
 
@@ -264,6 +266,12 @@ public class RestaurantTest {
         restaurant.clearTable(table1);
         int actual2 = table1.countClients();
         assertEquals(0, actual2);
+    }
+
+
+    @Test
+    public void canGetProfit(){
+        restaurant.
     }
 }
 

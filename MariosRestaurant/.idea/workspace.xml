@@ -158,8 +158,8 @@
       <file leaf-file-name="Restaurant.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Restaurant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="97" column="31" lean-forward="true" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -168,9 +168,12 @@
       <file leaf-file-name="RestaurantTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RestaurantTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="249" column="39" lean-forward="true" selection-start-line="249" selection-start-column="39" selection-end-line="249" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding>
+                <element signature="e#6558#6559#0" expanded="true" />
+                <element signature="e#6584#6585#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -500,8 +503,8 @@
         <option value="$PROJECT_DIR$/src/main/java/models/Kitchen.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Table.java" />
         <option value="$PROJECT_DIR$/src/test/java/TableTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Restaurant.java" />
         <option value="$PROJECT_DIR$/src/test/java/RestaurantTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Restaurant.java" />
       </list>
     </option>
   </component>
@@ -1382,16 +1385,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RestaurantTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="249" column="39" lean-forward="true" selection-start-line="249" selection-start-column="39" selection-end-line="249" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#6558#6559#0" expanded="true" />
+            <element signature="e#6584#6585#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Restaurant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="97" column="31" lean-forward="true" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding />
         </state>
       </provider>

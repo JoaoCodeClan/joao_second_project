@@ -9,6 +9,7 @@ public class Restaurant {
     private String name;
     private double income;
     private Menu menu;
+    private Kitchen kitchen;
     private int maxcapacity;
     private ArrayList<Table> sittings;
 
@@ -16,6 +17,7 @@ public class Restaurant {
         this.name = name;
         this.income = 0;
         this.menu = new Menu();
+        this.kitchen = new Kitchen();
         this.maxcapacity= maxcapacity;
         this.sittings = new ArrayList();
 
@@ -104,4 +106,6 @@ public class Restaurant {
              table.clearTable();
         }
     }
+
+
 }
