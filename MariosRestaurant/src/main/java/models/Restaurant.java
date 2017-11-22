@@ -124,6 +124,15 @@ public class Restaurant {
         return this.kitchen.lookForStockItem(ingredient);
     }
 
+    public double calculateCostOfStock() {
+        return this.kitchen.getTotalCosts();
+    }
+
+
+    public double calculateProfit() {
+        double profit = this.income - kitchen.getTotalCosts();
+        return profit;
+    }
 
 
 }

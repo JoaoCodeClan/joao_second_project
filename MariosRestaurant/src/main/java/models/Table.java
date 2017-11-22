@@ -55,7 +55,7 @@ public class Table {
     }
 
     public void collectPayment(){
-//        double incomeAmount = getTotalBill();
+
         for( Client client:table){
             client.setBill(0);
         }

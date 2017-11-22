@@ -15,6 +15,7 @@ public class RestaurantTest {
 
     Dish dish1;
     Dish dish2;
+    Dish dish3;
 
     Menu menu;
 
@@ -37,6 +38,7 @@ public class RestaurantTest {
         patron2 = new Patron();
         dish1 = new Dish("soup", 3.0);
         dish2 = new Dish("chips", 3.0);
+        dish3 = new Dish("expensive", 50.0);
         menu = new Menu();
         kitchen = new Kitchen();
         ingredient1 = new Ingredient("spaghetti", 3.0, 5);
@@ -325,6 +327,35 @@ public class RestaurantTest {
     assertFalse(actual);
 
 }
+
+@Test
+
+public void  canCalculateTotalCostsOfStock(){
+    restaurant.addItemToKitchenStock(ingredient1);
+    restaurant.addItemToKitchenStock(ingredient2);
+    double actual = restaurant.calculateCostOfStock();
+    assertEquals(6.0, actual, 0.01);
+
+}
+
+@Test
+
+    public void canCalculateProfit(){
+    restaurant.setCapacity(20);
+    restaurant.addTables(table1);
+    restaurant.addTables(table2);
+    restaurant.sitClient(patron1, table1);
+    restaurant.sitClient(patron2, table2);
+    restaurant.addItemToMenu(dish3);
+    restaurant.addItemToMenu(dish2);
+    restaurant.addItemToKitchenStock(ingredient1);
+    restaurant.addItemToKitchenStock(ingredient2);
+    patron1.makeOrder(menu, dish3);
+    restaurant.collectPayment(table1);
+    double actual = restaurant.calculateProfit();
+        assertEquals(44.0, actual, 0.01);
+
+    }
 
 
 }
