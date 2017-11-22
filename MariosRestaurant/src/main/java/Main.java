@@ -9,6 +9,7 @@ public class Main {
 //        repo.save(ingredient);
 
         repo.updateIngredientAmount(1, 50);
+        repo.deleteALLIngredient();
         repo.showAll();
 
     }

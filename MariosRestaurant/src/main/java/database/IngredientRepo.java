@@ -144,10 +144,12 @@ public void updateIngredientAmount(int id, int amount){
             e.printStackTrace();
         }
 
-    }
+}
 
-    public void deleteIngredient(int id){
-        try {
+
+public void deleteIngredient(int id){
+
+    try {
             Connection c = connect();
 
             PreparedStatement preparedStatement = c.prepareStatement(
@@ -164,8 +166,29 @@ public void updateIngredientAmount(int id, int amount){
             e.printStackTrace();
         }
 
-    }
+}
 
+
+
+
+public void deleteALLIngredient(){
+
+    try {
+            Connection c = connect();
+
+            PreparedStatement preparedStatement = c.prepareStatement(
+                    "DELETE FROM INGREDIENTS");
+
+            preparedStatement.executeUpdate();
+            preparedStatement.close();
+            c.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
 
 
 }
