@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Friend!</title>
+    <link rel='stylesheet' href='/css/style.css'>
+  </head>
+  <body>
+    <ul>
+        #foreach ($ingredient in $all)
+            <li>$ingredient.getName()</li>
+        #end
+    </ul>
+  </body>
+</html>
