@@ -3,6 +3,7 @@ package database;
 import models.Ingredient;
 
 import java.sql.*;
+import java.util.ArrayList;
 
 public class IngredientRepo {
 
@@ -40,7 +41,9 @@ public void save(Ingredient ingredient){
     }
 }
 
-    public void showAll(){
+    public ArrayList<Ingredient> showAll(){
+
+    ArrayList<Ingredient> allIngredients = new ArrayList<>();
 
         try {
             Connection c = connect();
@@ -52,20 +55,24 @@ while (resultSet.next()){
     String name = resultSet.getString("name");
     double price = resultSet.getDouble("price");
     int amount = resultSet.getInt("amount");
-    System.out.println("Name :" + name );
-    System.out.println("Price :" + price );
-    System.out.println("Amount :" + amount );
+    int id = resultSet.getInt("id");
+
+    Ingredient ingredient = new Ingredient(id, name, price, amount);
+
+    allIngredients.add(ingredient);
 }
 
             resultSet.close();
             statement.close();
-            c.commit();
+//            c.commit();
             c.close();
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+
+        return allIngredients;
 
 
 }
