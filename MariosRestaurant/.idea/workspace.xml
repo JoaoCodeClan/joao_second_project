@@ -66,19 +66,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ingredient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Ingredient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-              <folding>
-                <element signature="e#931#932#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IngredientRepo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/database/IngredientRepo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -165,25 +152,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KitchenTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KitchenTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/KitchenTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+            <state relative-caret-position="244">
+              <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Restaurant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Restaurant.java">
+      <file leaf-file-name="Table.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="96" column="43" lean-forward="false" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+            <state relative-caret-position="227">
+              <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
               <folding>
-                <element signature="e#2110#2111#0" expanded="true" />
-                <element signature="e#2160#2161#0" expanded="true" />
+                <element signature="e#1192#1193#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="784">
+              <caret line="132" column="5" lean-forward="true" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -495,7 +492,6 @@
         <option value="$PROJECT_DIR$/src/main/java/models/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/interfaces/Client.java" />
         <option value="$PROJECT_DIR$/src/test/java/TableTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Table.java" />
         <option value="$PROJECT_DIR$/src/test/java/RestaurantTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Restaurant.java" />
         <option value="$PROJECT_DIR$/src/test/java/IngredientsTest.java" />
@@ -515,6 +511,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/KitchenTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Kitchen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Table.java" />
       </list>
     </option>
   </component>
@@ -643,7 +640,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KitchenTest.canCalculateTotalCostOfIngredients">
+  <component name="RunManager" selected="JUnit.TableTest.totalForTableIsSplit">
     <configuration name="All in com_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
@@ -653,26 +650,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="DishTest.canCheckForAmountOfIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="com_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DishTest" />
-      <option name="METHOD_NAME" value="canCheckForAmountOfIngredients" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -726,6 +703,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PatronTest" />
       <option name="METHOD_NAME" value="patronCannotAddItemsToOrderdueToLowStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TableTest.totalForTableIsSplit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="com_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TableTest" />
+      <option name="METHOD_NAME" value="totalForTableIsSplit" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -837,17 +834,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.All in com_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DishTest.canCheckForAmountOfIngredients" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCannotAddItemsToOrderdueToLowStock" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.KitchenTest.canCalculateTotalCostOfIngredients" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCannotAddItemsToOrderdueToLowStock" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.KitchenTest.canCalculateTotalCostOfIngredients" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TableTest.totalForTableIsSplit" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.KitchenTest.canCalculateTotalCostOfIngredients" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in com_test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCannotAddItemsToOrderdueToLowStock" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DishTest.canCheckForAmountOfIngredients" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TableTest.totalForTableIsSplit" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.KitchenTest.canCalculateTotalCostOfIngredients" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in com_test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PatronTest.patronCannotAddItemsToOrderdueToLowStock" />
       </list>
     </recent_temporary>
   </component>
@@ -865,9 +862,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_com_test - 2017.11.20 at 14h 20m 01s.xml">
-      <configuration name="All in com_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_com_test - 2017.11.20 at 15h 00m 38s.xml">
       <configuration name="All in com_test" configurationId="JUnit" />
     </history-entry>
@@ -894,6 +888,9 @@
     </history-entry>
     <history-entry file="PatronTest_patronCannotAddItemsToOrderdueToLowStock - 2017.11.20 at 14h 24m 48s.xml">
       <configuration name="PatronTest.patronCannotAddItemsToOrderdueToLowStock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_totalForTableIsSplit - 2017.11.22 at 20h 56m 41s.xml">
+      <configuration name="TableTest.totalForTableIsSplit" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1166,13 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="132" column="5" lean-forward="true" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RestaurantTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1230,17 +1220,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-          <folding>
-            <element signature="e#1202#1203#0" expanded="false" />
-            <element signature="e#1236#1237#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1403,8 +1383,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/KitchenTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+        <state relative-caret-position="244">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="132" column="5" lean-forward="true" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
           <folding />
         </state>
       </provider>

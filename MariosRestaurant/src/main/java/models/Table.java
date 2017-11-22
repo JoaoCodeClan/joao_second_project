@@ -39,8 +39,8 @@ public class Table {
             tableTotal += client.getExpense();
         }
         for (Client client : table) {
-            double totalTable = tableTotal / table.size();
-            client.setBill(totalTable);
+            double total = tableTotal / table.size();
+            client.setBill(total);
         }
     }
 
