@@ -246,6 +246,8 @@ public class RestaurantTest {
         restaurant.collectPayment(table1);
         double actual3 = restaurant.getIncome();
         assertEquals(3, actual3, 0.01);
+        double actual4 = patron1.getBill();
+        assertEquals(0, actual4, 0.01);
     }
 
     @Test

@@ -95,6 +95,7 @@ public class Restaurant {
 
     public void collectPayment(Table table) {
         this.income +=table.getTotalBill();
+        table.collectPayment();
     }
 
     public void clearTable(Table table) {
