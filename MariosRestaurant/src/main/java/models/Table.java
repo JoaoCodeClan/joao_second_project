@@ -38,6 +38,7 @@ public class Table {
         for (Client client : table) {
             tableTotal += client.getExpense();
         }
+
         for (Client client : table) {
             double total = tableTotal / table.size();
             client.setBill(total);
@@ -51,6 +52,15 @@ public class Table {
             tableTotal +=patron.getExpense();
         }
         client.setBill(tableTotal);
+    }
+
+    public void collectPayment(){
+//        double incomeAmount = getTotalBill();
+        for( Client client:table){
+            client.setBill(0);
+        }
+
+
     }
 
     public void clearTable() {

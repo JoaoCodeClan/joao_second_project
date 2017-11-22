@@ -133,4 +133,53 @@ public class TableTest {
     }
 
 
+    @Test
+
+    public void canCollectPaymentIfSplit(){
+        table.addClient(patron1);
+        table.addClient(patron2);
+        menu.addDish(dish1);
+        menu.addDish(dish2);
+        menu.addDish(dish3);
+        patron1.makeOrder(menu, dish1);
+        patron2.makeOrder(menu, dish2);
+        patron2.makeOrder(menu, dish3);
+        table.SplitTotalEqually();
+        double actual =patron2.getBill();
+        assertEquals(5.625,actual,0.01);
+        double actual2 = patron1.getBill();
+        assertEquals(5.625,actual2,0.01);
+        table.collectPayment();
+        double actual3= patron1.getBill();
+        assertEquals(0, actual3, 0.01);
+        double actual4= patron2.getBill();
+        assertEquals(0, actual4, 0.01);
+
+    }
+
+
+
+    @Test
+
+    public void canCollectPaymentForOneClientOnly(){
+        table.addClient(patron1);
+        table.addClient(patron2);
+        menu.addDish(dish1);
+        menu.addDish(dish2);
+        menu.addDish(dish3);
+        patron1.makeOrder(menu, dish1);
+        patron2.makeOrder(menu, dish2);
+        patron2.makeOrder(menu, dish3);
+        table.payTotalofTable(patron2);
+        double actual =patron2.getBill();
+        assertEquals(11.25,actual,0.01);
+        table.collectPayment();
+        double actual1=patron2.getBill();
+        assertEquals(0,actual1,0.01);
+
+    }
+
+
+
+
 }
