@@ -75,6 +75,19 @@ public class KitchenTest {
     }
 
 
+    @Test
+
+    public void canCalculateTotalCostOfIngredients(){
+        kitchen.addItemToStock(ingredient1);
+        kitchen.addItemToStock(ingredient2);
+        kitchen.addItemToStock(ingredient3);
+        kitchen.addItemToStock(ingredient4);
+        double actual =kitchen.getTotalCosts();
+        assertEquals(12.0, actual, 0.01);
+
+    }
+
+
 
 
 }

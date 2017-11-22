@@ -24,4 +24,12 @@ public class Kitchen {
     public void removeItemFromStock(Ingredient ingredient) {
         this.stock.remove(ingredient);
     }
+
+    public double getTotalCosts() {
+        double totalCosts= 0;
+        for(Ingredient ingredient:stock){
+            totalCosts += ingredient.getPrice();
+        }
+        return totalCosts;
+    }
 }
