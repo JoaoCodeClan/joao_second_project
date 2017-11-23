@@ -1,28 +1,48 @@
-import database.IngredientRepo;
-import models.Ingredient;
+
 import spark.ModelAndView;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 import static spark.Spark.get;
 import static spark.Spark.staticFileLocation;
 
 public class Main {
-    public static void main(String[] args) throws ClassNotFoundException {
+
+    public static void main(String[] args) {
+
         staticFileLocation("/public");
+        String layout = "templates/layout.vtl";
 
-        HashMap<String, Object> model = new HashMap<>();
-
-        IngredientRepo repo = new IngredientRepo();
-
-        ArrayList<Ingredient> allIngs = repo.showAll();
-
-        model.put("all",allIngs);
-
-        get("/ingredients", (req, res) -> new ModelAndView(model, "templates/hello.vtl")
-                , new VelocityTemplateEngine());
+        get("/", (request, response) -> {
+            HashMap<String, Object> model = new HashMap<String, Object>();
+            model.put("template", "templates/homepage.vtl" );
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
 
 
-    }
+        get("/menu", (request, response) -> {
+            HashMap<String, Object> model = new HashMap<String, Object>();
+            model.put("template", "templates/menu.vtl" );
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
+
+
+        get("/restaurant", (request, response) -> {
+            HashMap<String, Object> model = new HashMap<String, Object>();
+            model.put("template", "templates/restaurant.vtl" );
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
+
+        get("/stock", (request, response) -> {
+        HashMap<String, Object> model = new HashMap<String, Object>();
+        model.put("template", "templates/stock.vtl" );
+        return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
+
 }
+}
+
+
+
+
+
