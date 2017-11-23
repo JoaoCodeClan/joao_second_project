@@ -1,7 +1,20 @@
 body {
-    background-color: blue;
+    background-color:blue;
+    text-align: center;
 }
 
+ p,li {
+color:white;
+text-align: justify;
+}
+
+
+h1, h2 {
+
+color:white;
+text-align: center;
+
+}
 
 img {
 
@@ -13,5 +26,37 @@ img {
 
 width:1000px;
 height:900px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+
+nav ul li {
+        float: left;
+    }
+
+nav ul li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+nav ul li a:hover {
+        background-color: #111;
+}
+
+
+#icon {
+width: 30px;
+height: 30px;
+
 
 }
