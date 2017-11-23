@@ -33,6 +33,13 @@ public class Main {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
+
+        get("/team", (request, response) -> {
+            HashMap<String, Object> model = new HashMap<String, Object>();
+            model.put("template", "templates/team.vtl" );
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
+
         get("/stock", (request, response) -> {
         HashMap<String, Object> model = new HashMap<String, Object>();
         model.put("template", "templates/stock.vtl" );
